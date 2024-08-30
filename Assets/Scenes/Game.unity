@@ -8348,7 +8348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerInput: {fileID: 1709877406}
   _moving: 0
-  _moveSpeed: 7
+  _moveSpeed: 7.5
   _canShoot: 1
   _maxCooldown: 0.7
   _currentCooldown: 0.7
