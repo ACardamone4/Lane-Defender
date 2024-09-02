@@ -94,16 +94,6 @@ public class DataPersistenceManager : MonoBehaviour
         Debug.Log(fullPath);
         File.WriteAllText(fullPath, dataToStore);
         // Write the serialized data to the file
-        /*using (FileStream stream = new FileStream(fullPath, FileMode.Create))
-        {
-            using (StreamWriter writer = new StreamWriter(stream))
-            {
-                // Puts in the data that will be added to the file
-                writer.Write(dataToStore);
-            }
-        }*/
-
-
     }
 
     private void OnApplicationQuit()

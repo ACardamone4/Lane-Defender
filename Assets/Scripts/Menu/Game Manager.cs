@@ -28,29 +28,6 @@ public class GameManager : MonoBehaviour//, IDataPersistence
     //[SerializeField] private FileDataHandler _fileDataHandler;
     [SerializeField] private DataPersistenceManager _dataPersistenceManager;
 
-
-    //public int HighScore { get => _highScore; set => _highScore = value; }
-
-    /*
-    /// <summary>
-    /// Allows the highscore data saved in JSON to be used in the GameManager;
-    /// </summary>
-    /// <param name="data"></param>
-    public void LoadData(GameData data)
-    {
-        this.highScore = data.HighScore;
-    }
-
-    /// <summary>
-    /// Allows the highscore data found in the Game Manager to be saved through JSON
-    /// </summary>
-    /// <param name="data"></param>
-    public void SaveData(ref GameData data)
-    {
-        data.HighScore = this.highScore;
-    }
-    */
-
     /// <summary>
     /// Sets the player's health and score back to their base stats, and changed the text back to their bases.
     /// </summary>
